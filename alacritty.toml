@@ -1,8 +1,10 @@
+# Alacritty Configuration — Gruvbox Colors with Black Background
+
 [window]
 dimensions = { columns = 100, lines = 25 }
 decorations = "None"
-opacity = 0.8
-padding = { x = 5, y = 5 }
+opacity = 0.8               # can increase to 0.9 if needed
+padding = { x = 6, y = 6 }
 dynamic_padding = false
 startup_mode = "Windowed"
 
@@ -13,13 +15,34 @@ italic = { family = "JetBrains Mono", style = "Italic" }
 bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
 size = 12.0
 
+# Gruvbox colors on black background
 [colors.primary]
 background = "0x000000"
-foreground = "0xffffff"
+foreground = "0xd4be98"    # warm, readable text
+
+[colors.normal]
+black   = "0x000000"
+red     = "0xea6962"
+green   = "0xa9b665"
+yellow  = "0xd8a657"
+blue    = "0x7daea3"
+magenta = "0xd3869b"
+cyan    = "0x89b482"
+white   = "0xd4be98"
+
+[colors.bright]
+black   = "0x7c6f64"
+red     = "0xea6962"
+green   = "0xa9b665"
+yellow  = "0xd8a657"
+blue    = "0x7daea3"
+magenta = "0xd3869b"
+cyan    = "0x89b482"
+white   = "0xdfbf8e"
 
 [cursor.style]
 shape = "Block"
-blinking = "On"
+blinking = "Off"
 
 [scrolling]
 history = 10000
