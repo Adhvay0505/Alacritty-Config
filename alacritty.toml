@@ -13,38 +13,38 @@ bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
 size = 12.0
 builtin_box_drawing = true
 
-# Tokyo Night - Honey Gold Text Edition
+#Dracula-inspired neon
 [colors.primary]
-background = "0x1a1b26"
-foreground = "0xf6c97a"   # honey gold cream (stronger, richer, stands out)
-
-[colors.normal]
-black   = "0x15161e"
-red     = "0xf7768e"
-green   = "0xc2dd8d"      # warmer green with honey undertone
-yellow  = "0xf4bf4f"      # real honey gold
-blue    = "0x8eaaff"
-magenta = "0xdeb8ff"
-cyan    = "0xb7eaff"
-white   = "0xf7d79b"      # honey cream white
-
-[colors.bright]
-black   = "0x545a75"
-red     = "0xf88f9d"
-green   = "0xd3eb9f"
-yellow  = "0xf7cc6e"      # soft honey glow
-blue    = "0xa7baff"
-magenta = "0xe8ccff"
-cyan    = "0xcff4ff"
-white   = "0xffe7b8"      # bright honey gold cream (glow)
-
-[colors.selection]
-background = "0x33384a"
-text = "0xf6c97a"
+background = "0x18181F"
+foreground = "0xf8f8f2"
 
 [colors.cursor]
-cursor = "0xf6c97a"
-text = "0x1a1b26"
+text = "0x44475a"
+cursor = "0xf8f8f2"
+
+[colors.normal]
+black   = "0x18181F"
+red     = "0xEA51B2"
+green   = "0xEBFF87"
+yellow  = "0x00F769"
+blue    = "0x62D6E8"
+magenta = "0xB45BCF"
+cyan    = "0xA1EFE4"
+white   = "0xE9E9F4"
+
+[colors.bright]
+black   = "0x626483"
+red     = "0xEA51B2"
+green   = "0xEBFF87"
+yellow  = "0x00F769"
+blue    = "0x62D6E8"
+magenta = "0xB45BCF"
+cyan    = "0xA1EFE4"
+white   = "0xF7F7FB"
+
+[colors.selection]
+background = "0x44475a"
+text = "0xf8f8f2"
 
 [cursor.style]
 shape = "Block"
