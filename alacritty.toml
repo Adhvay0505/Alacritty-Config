@@ -13,44 +13,36 @@ bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
 size = 12.0
 builtin_box_drawing = true
 
-#Dracula-inspired neon
+# Colors (Gruvbox Material Hard Dark)
 [colors.primary]
-background = "0x18181F"
-foreground = "0xf8f8f2"
+background = "#1d2021"
+foreground = "#d4be98"
 
 [colors.cursor]
-text = "0x44475a"
-cursor = "0xf8f8f2"
-
-[colors.normal]
-black   = "0x18181F"
-red     = "0xEA51B2"
-green   = "0xEBFF87"
-yellow  = "0x00F769"
-blue    = "0x62D6E8"
-magenta = "0xB45BCF"
-cyan    = "0xA1EFE4"
-white   = "0xE9E9F4"
-
-[colors.bright]
-black   = "0x626483"
-red     = "0xEA51B2"
-green   = "0xEBFF87"
-yellow  = "0x00F769"
-blue    = "0x62D6E8"
-magenta = "0xB45BCF"
-cyan    = "0xA1EFE4"
-white   = "0xF7F7FB"
+text = "#1d2021"
+cursor = "#d4be98"
 
 [colors.selection]
-background = "0x44475a"
-text = "0xf8f8f2"
+text = "#1d2021"
+background = "#d4be98"
 
-[cursor.style]
-shape = "Block"
-blinking = "Off"
+[colors.normal]
+black   = "#32302f"
+red     = "#ea6962"
+green   = "#a9b665"
+yellow  = "#d8a657"
+blue    = "#7daea3"
+magenta = "#d3869b"
+cyan    = "#89b482"
+white   = "#d4be98"
 
-[scrolling]
-history = 10000
-multiplier = 3
+[colors.bright]
+black   = "#32302f"
+red     = "#ea6962"
+green   = "#a9b665"
+yellow  = "#d8a657"
+blue    = "#7daea3"
+magenta = "#d3869b"
+cyan    = "#89b482"
+white   = "#d4be98"
 
