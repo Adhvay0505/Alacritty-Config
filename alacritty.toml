@@ -10,7 +10,7 @@ normal = { family = "JetBrains Mono", style = "Regular" }
 bold = { family = "JetBrains Mono", style = "Bold" }
 italic = { family = "JetBrains Mono", style = "Italic" }
 bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
-size = 12.0
+size = 14
 builtin_box_drawing = true
 
 # Colors (Gruvbox Material Hard Dark)
@@ -45,4 +45,3 @@ blue    = "#7daea3"
 magenta = "#d3869b"
 cyan    = "#89b482"
 white   = "#d4be98"
-
