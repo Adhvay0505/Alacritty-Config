@@ -1,47 +1,57 @@
+# ==============================
+# Window
+# ==============================
 [window]
-decorations = "None"
-opacity = 0.85
-blur = true
-padding = { x = 4, y = 4 }
-dynamic_padding = false
+opacity = 0.85  # fully opaque for true black
+decorations = "none"
 
+[window.padding]
+x = 16
+y = 16
+
+# ==============================
+# Font
+# ==============================
 [font]
 normal = { family = "JetBrains Mono", style = "Regular" }
 bold = { family = "JetBrains Mono", style = "Bold" }
 italic = { family = "JetBrains Mono", style = "Italic" }
 bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
-size = 14
-builtin_box_drawing = true
 
-# Colors (Gruvbox Material Hard Dark)
+size = 14.0
+
+# ==============================
+# Colors — True Black Theme
+# ==============================
 [colors.primary]
-background = "#1d2021"
-foreground = "#d4be98"
-
-[colors.cursor]
-text = "#1d2021"
-cursor = "#d4be98"
-
-[colors.selection]
-text = "#1d2021"
-background = "#d4be98"
+background = "#000000"  # pure black
+foreground = "#ffffff"  # light gray for readability
 
 [colors.normal]
-black   = "#32302f"
-red     = "#ea6962"
-green   = "#a9b665"
-yellow  = "#d8a657"
-blue    = "#7daea3"
-magenta = "#d3869b"
-cyan    = "#89b482"
-white   = "#d4be98"
+black   = "#000000"
+red     = "#ff5555"
+green   = "#50fa7b"
+yellow  = "#f1fa8c"
+blue    = "#6272a4"
+magenta = "#ff79c6"
+cyan    = "#8be9fd"
+white   = "#f8f8f2"
 
 [colors.bright]
-black   = "#32302f"
-red     = "#ea6962"
-green   = "#a9b665"
-yellow  = "#d8a657"
-blue    = "#7daea3"
-magenta = "#d3869b"
-cyan    = "#89b482"
-white   = "#d4be98"
+black   = "#44475a"
+red     = "#ff6e6e"
+green   = "#69ff94"
+yellow  = "#ffffa5"
+blue    = "#7084ff"
+magenta = "#ff92df"
+cyan    = "#9aedfe"
+white   = "#ffffff"
+
+# ==============================
+# Cursor
+# ==============================
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
