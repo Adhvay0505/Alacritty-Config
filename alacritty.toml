@@ -2,7 +2,7 @@
 # Window
 # ==============================
 [window]
-opacity = 0.85  # fully opaque for true black
+opacity = 0.80
 decorations = "none"
 
 [window.padding]
