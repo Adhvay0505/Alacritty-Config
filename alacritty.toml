@@ -2,7 +2,7 @@
 # Window
 # ==============================
 [window]
-opacity = 0.80
+opacity = 0.85
 decorations = "none"
 
 [window.padding]
@@ -24,8 +24,8 @@ size = 14.0
 # Colors — True Black Theme
 # ==============================
 [colors.primary]
-background = "#000000"  # pure black
-foreground = "#ffffff"  # light gray for readability
+background = "#000000"  
+foreground = "#ffffff"  
 
 [colors.normal]
 black   = "#000000"
@@ -55,3 +55,4 @@ style = { shape = "Block", blinking = "On" }
 
 [mouse]
 hide_when_typing = true
+
