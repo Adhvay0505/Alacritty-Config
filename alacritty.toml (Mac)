@@ -1,21 +1,24 @@
-# Alacritty Configuration — Gruvbox Colors with Black Background
-# This is for MacOS
+# Alacritty Configuration — Gruvbox on Black (Floating, Padded)
 
 [window]
-dimensions = { columns = 100, lines = 25 }
-decorations = "Full"        # enables top bar
-opacity = 0.7
-blur = true
-padding = { x = 6, y = 6 }
-dynamic_padding = false
 startup_mode = "Windowed"
+decorations = "buttonless"     # thin draggable bar with close button only
+opacity = 0.5
+blur = true
+
+# Bigger padding for breathing room
+padding = { x = 14, y = 12 }
+dynamic_padding = false
+
+# ~70–80% of screen on a typical Mac with 16px font
+dimensions = { columns = 150, lines = 42 }
 
 [font]
 normal = { family = "JetBrains Mono", style = "Regular" }
 bold = { family = "JetBrains Mono", style = "Bold" }
 italic = { family = "JetBrains Mono", style = "Italic" }
 bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
-size = 12.0
+size = 16.0
 
 # Gruvbox colors on black background
 [colors.primary]
